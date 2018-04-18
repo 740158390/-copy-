@@ -11,10 +11,10 @@
 使用 html-webpack-plugin 插件生成
 
 * 组件 ： /src/component/..
-|组件名|路径|
-|-|-|
-|头部|src/components/header.jsx|
-|首页|src/components/home.jsx|
-|新闻|src/components/news.jsx|
-|游戏指南|src/components/gameguide.jsx|
+		|组件名|路径|
+		|-|-|
+		|头部|src/components/header.jsx|
+		|首页|src/components/home.jsx|
+		|新闻|src/components/news.jsx|
+		|游戏指南|src/components/gameguide.jsx|
 
