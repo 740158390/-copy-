@@ -10,7 +10,8 @@
 
 使用 html-webpack-plugin 插件生成
 
-* 组件 ： /src/component/../
+* 组件 ： /src/component/../ 
+<br>
 		|组件名|路径|
 		|-|-|
 		|头部|src/components/header.jsx|
