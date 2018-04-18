@@ -336,7 +336,7 @@ class News extends Component {
 							
 						</div>
 						
-						<div className="wraperConBot" style="{bottom:-11px;}"></div>
+						<div className="wraperConBot" style={{bottom:"-11px"}}></div>
 					</div>
 					
 				</div>

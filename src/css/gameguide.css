@@ -1,0 +1,1099 @@
+body {
+	font-size: 15px;
+	color: #5b4b38
+}
+
+.wraperConArea {
+	zoom: 1;
+	position: relative
+}
+
+#xinshou {
+	padding: 0 50px
+}
+
+.ui-breadcrumbs {
+	padding-bottom: 4px;
+	font-size: 12px
+}
+
+.ui-breadcrumbs a:hover {
+	border-bottom: 1px dotted #db6800
+}
+
+.ui-breadcrumbs a.active {
+	border-bottom: 1px dotted #db6800;
+	color: #db6800;
+	cursor: default
+}
+
+.nav {
+	height: 150px;
+	margin: 42px 0 0 10px
+}
+
+.nav li {
+	float: left
+}
+
+.nav li a {
+	display: block;
+	width: 184px;
+	height: 134px;
+	background: url(http://hearthstone.nos.netease.com/3/v2015/gameguide/sprite.png) no-repeat -12px -310px;
+	text-indent: -999em
+}
+
+.nav li.item2 a {
+	background-position: -198px -310px
+}
+
+.nav li.item3 a {
+	background-position: -380px -310px
+}
+
+.nav li.item4 a {
+	background-position: -567px -310px
+}
+
+.nav li a.active,
+.nav li a:hover {
+	background-position: -12px -474px;
+	height: 202px
+}
+
+.nav li.item2 a.active,
+.nav li.item2 a:hover {
+	background-position: -198px -474px
+}
+
+.nav li.item3 a.active,
+.nav li.item3 a:hover {
+	background-position: -380px -474px
+}
+
+.nav li.item4 a.active,
+.nav li.item4 a:hover {
+	background-position: -568px -475px
+}
+
+.gameguideIntro {
+	width: 957px;
+	height: 323px;
+	margin: 0 auto -20px;
+	background: url(http://hearthstone.nos.netease.com/3/v2015/gameguide/hometopbg_20171017.png) no-repeat
+}
+
+.gameguideIntro .desc {
+	padding: 30px 430px 30px 30px
+}
+
+.gameguideIntro h2 {
+	color: #251c0f;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 20px 0
+}
+
+.gameguideIntro p {
+	line-height: 30px;
+	text-indent: 2em
+}
+
+.subNav {
+	position: absolute;
+	right: -45px;
+	top: 226px;
+	width: 456px;
+	height: 230px
+}
+
+.subNav li {
+	position: absolute
+}
+
+.subNav li a {
+	background: url(http://hearthstone.nos.netease.com/3/newbie/sprite.png) no-repeat -1px 5px;
+	display: block;
+	width: 135px;
+	height: 135px;
+	text-indent: -999em
+}
+
+.subNav li.item2 a,
+.subNav li.item3 a,
+.subNav li.item4 a {
+	width: 125px
+}
+
+.subNav li.item1 {
+	left: 63px;
+	top: 26px
+}
+
+.subNav li.item2 {
+	left: 194px;
+	top: 72px
+}
+
+.subNav li.item3 {
+	left: 281px;
+	top: -5px
+}
+
+.subNav li.item4 {
+	left: 323px;
+	top: -40px
+}
+
+.subNav li.item2 a {
+	background-position: -414px -12px
+}
+
+.subNav li.item3 a {
+	background-position: -148px -10px
+}
+
+.subNav li.item4 a {
+	background-position: -283px -12px
+}
+
+.subNav li a.active,
+.subNav li a:hover {
+	background-position: -6px -142px
+}
+
+.subNav li.item2 a.active,
+.subNav li.item2 a:hover {
+	background-position: -425px -150px
+}
+
+.subNav li.item3 a.active,
+.subNav li.item3 a:hover {
+	background-position: -148px -150px
+}
+
+.subNav li.item4 a.active,
+.subNav li.item4 a:hover {
+	background-position: -285px -150px
+}
+
+#xinshou h2 {
+	font-size: 36px;
+	color: #03345f;
+	font-weight: 600;
+	padding: 20px 0
+}
+
+#xinshou div.brief {
+	font-size: 16px;
+	color: #000;
+	line-height: 30px;
+	padding: 0 0 20px
+}
+
+#xinshou div.brief a {
+	color: #db6800;
+	text-decoration: underline
+}
+
+#xinshou h3 {
+	background: #dac197;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	margin: 40px auto 22px
+}
+
+#xinshou h3 span {
+	display: block;
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: -20px 9px 0 0;
+	background: url(http://hearthstone.nos.netease.com/3/newbie/icon.png?v3) no-repeat 1px -41px
+}
+
+#xinshou h3 span.icon2 {
+	background-position: -73px -41px
+}
+
+#xinshou h3 span.icon3 {
+	background-position: -149px -41px
+}
+
+#xinshou h3 span.icon4 {
+	background-position: -226px -41px
+}
+
+#xinshou h3 span.icon5 {
+	background-position: -303px -41px
+}
+
+#xinshou h3 span.icon6 {
+	background-position: -385px -41px
+}
+
+#xinshou h3 span.icon7 {
+	background-position: -467px -41px
+}
+
+#xinshou h3 span.icon8 {
+	background-position: -548px -41px
+}
+
+#xinshou h3 span.icon9 {
+	background-position: -631px -41px
+}
+
+#xinshou h3 span.icon10 {
+	background-position: -713px -41px
+}
+
+#xinshou h3 span.icon11 {
+	background-position: -796px -41px
+}
+
+#xinshou h3 span.icon12 {
+	background-position: -876px -41px
+}
+
+#xinshou h3 span.icon13 {
+	background-position: -954px -41px
+}
+
+#xinshou h3 span.icon14 {
+	background-position: -1029px -41px
+}
+
+#xinshou h3 span.icon15 {
+	background-position: -1106px -41px
+}
+
+#xinshou h3 span.icon16 {
+	background-position: -1182px -41px
+}
+
+#xinshou h3 span.icon17 {
+	background-position: -1260px -41px
+}
+
+#xinshou h3 span.icon18 {
+	background-position: -1336px -41px
+}
+
+#xinshou h3 span.icon19 {
+	background-position: -1412px -41px
+}
+
+#xinshou h3 span.icon20 {
+	background-position: -1488px -41px
+}
+
+#xinshou h3 span.icon21 {
+	background-position: -1564px -41px
+}
+
+#xinshou h3 strong {
+	font-size: 20px;
+	font-weight: 700
+}
+
+.gameguide h3.title {
+	height: 35px;
+	width: 860px;
+	font-size: 18px;
+	font-weight: 700;
+	padding-left: 50px;
+	margin: 20px auto;
+	line-height: 35px;
+	color: #251c0f;
+	background: #e1c79d url(http://hearthstone.nos.netease.com/3/v2015/gameguide/sprite.png) no-repeat;
+	background-position: -20px -258px;
+	position: relative
+}
+
+.gameguide .baseList {
+	width: 880px;
+	height: 125px;
+	margin: 30px auto 40px
+}
+
+.gameguide .baseList li {
+	margin: 0 5px;
+	*margin: 0 2px;
+	float: left
+}
+
+.gameguide .baseList li a {
+	width: 100px;
+	*width: 106px;
+	display: block;
+	font-weight: 700
+}
+
+.gameguide .baseList li a:hover {
+	text-decoration: none
+}
+
+.gameguide .baseList li .icon {
+	width: 63px;
+	height: 63px;
+	display: block;
+	margin: 0 auto 10px;
+	cursor: pointer;
+	background: url(http://hearthstone.nos.netease.com/3/v2015/gameguide/sprite.png) no-repeat -24px -10px
+}
+
+.gameguide .baseList li .icon.zl {
+	background-position: -24px -10px
+}
+
+.gameguide .baseList li a:hover .icon.zl {
+	background-position: -24px -90px
+}
+
+.gameguide .baseList li .icon.bz {
+	background-position: -125px -10px
+}
+
+.gameguide .baseList li a:hover .icon.bz {
+	background-position: -125px -90px
+}
+
+.gameguide .baseList li .icon.card {
+	background-position: -225px -10px
+}
+
+.gameguide .baseList li a:hover .icon.card {
+	background-position: -225px -90px
+}
+
+.gameguide .baseList li .icon.jn {
+	background-position: -326px -10px
+}
+
+.gameguide .baseList li a:hover .icon.jn {
+	background-position: -326px -90px
+}
+
+.gameguide .baseList li .icon.ms {
+	background-position: -425px -10px
+}
+
+.gameguide .baseList li a:hover .icon.ms {
+	background-position: -425px -90px
+}
+
+.gameguide .baseList li .icon.cj {
+	background-position: -527px -10px
+}
+
+.gameguide .baseList li a:hover .icon.cj {
+	background-position: -527px -90px
+}
+
+.gameguide .baseList li .icon.sj {
+	background-position: -627px -10px
+}
+
+.gameguide .baseList li a:hover .icon.sj {
+	background-position: -627px -90px
+}
+
+.gameguide .baseList li .icon.fj {
+	background-position: -727px -10px
+}
+
+.gameguide .baseList li a:hover .icon.fj {
+	background-position: -727px -90px
+}
+
+.gameguide .baseList li .title {
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	padding: 0 10px;
+	color: #251c0f;
+	display: block;
+	margin: 0 auto;
+	border-radius: 3px;
+	border: 1px solid #efd9b4;
+	background: #d8bc91
+}
+
+.gameguide .baseList li .title:hover {
+	background: #d0b07f
+}
+
+.gameguide .timelineBox {
+	width: 756px;
+	height: 282px;
+	margin: 10px auto 20px;
+	padding: 1px;
+	background: #e7c9a0;
+	border: 1px solid #bb8e54;
+	position: relative
+}
+
+.gameguide .timelineBox .imgload {
+	height: 55px;
+	left: 50%;
+	margin-left: -27px;
+	margin-top: -50px;
+	position: absolute;
+	top: 50%;
+	width: 55px
+}
+
+.gameguide .timelineBox .eventsphoto {
+	width: 756px;
+	height: 282px;
+	display: none
+}
+
+.gameguide .timelineBox .textmask {
+	height: 46px;
+	position: absolute;
+	bottom: 1px;
+	left: 1px;
+	width: 756px;
+	z-index: 10;
+	background: url(http://hearthstone.nos.netease.com/3/common/dot5.png) repeat
+}
+
+.gameguide .timelineBox .eventsDec {
+	width: 756px;
+	height: 46px;
+	line-height: 46px;
+	bottom: 1px;
+	left: 1px;
+	z-index: 11;
+	color: #f1dbb9;
+	font-size: 18px;
+	font-weight: 700;
+	text-shadow: 0 0 10px #000;
+	position: absolute;
+	display: block;
+	text-align: center
+}
+
+.gameguide .timelineBox .eventsLink {
+	width: 756px;
+	height: 282px;
+	display: block
+}
+
+.gameguide .timeline {
+	width: 913px;
+	height: 88px;
+	background: #e3c9a0;
+	border: 1px solid #f0dbb7;
+	position: relative;
+	margin: 0 auto 20px
+}
+
+.gameguide .timeline .dateList {
+	width: 805px;
+	height: 88px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	background-image: url(http://hearthstone.nos.netease.com/3/v2015/gameguide/timeline-line.png);
+	background-position: 50% 40%;
+	*background-position: 0 40%;
+	background-repeat: no-repeat
+}
+
+.gameguide .timeline ul {
+	width: auto;
+	height: 88px;
+	top: 0;
+	left: 0;
+	position: absolute
+}
+
+.gameguide .timeline ul li {
+	width: 115px;
+	height: 88px;
+	overflow: hidden;
+	position: relative;
+	float: left
+}
+
+.gameguide .timeline ul li .circleList {
+	height: 60px;
+	cursor: pointer;
+	position: relative
+}
+
+.gameguide .timeline ul li .circle_a {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 30px;
+	left: 55px;
+	display: block;
+	background: #9a7348;
+	border-radius: 10px;
+	z-index: 1
+}
+
+.gameguide .timeline ul li .circle_b {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 25px;
+	left: 50px;
+	display: block;
+	background: #c1976e;
+	border-radius: 20px;
+	z-index: 0
+}
+
+.gameguide .timeline ul li .eventDate:hover .circle_a {
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	position: absolute;
+	top: 20px;
+	left: 45px;
+	background-color: #db6800;
+	-webkit-animation: circle_a_hover 2s infinite ease-in-out;
+	animation: circle_a_hover 2s infinite ease-in-out
+}
+
+@-webkit-keyframes circle_a_hover {
+	0%,
+	100% {
+		-webkit-transform: scale(0.3)
+	}
+	50% {
+		-webkit-transform: scale(1)
+	}
+}
+
+@keyframes circle_a_hover {
+	0%,
+	100% {
+		transform: scale(0.3);
+		-webkit-transform: scale(0.3)
+	}
+	50% {
+		transform: scale(1);
+		-webkit-transform: scale(1)
+	}
+}
+
+.gameguide .timeline ul li .eventDate:hover .circle_b {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	position: absolute;
+	top: 15px;
+	left: 40px;
+	-webkit-animation: circle_b_hover 2s infinite ease-in-out;
+	animation: circle_b_hover 2s infinite ease-in-out
+}
+
+@-webkit-keyframes circle_b_hover {
+	0%,
+	100% {
+		-webkit-transform: scale(0.5)
+	}
+	50% {
+		-webkit-transform: scale(1)
+	}
+}
+
+@keyframes circle_b_hover {
+	0%,
+	100% {
+		transform: scale(0.5);
+		-webkit-transform: scale(0.5)
+	}
+	50% {
+		transform: scale(1);
+		-webkit-transform: scale(1)
+	}
+}
+
+.gameguide .timeline ul li .eventDate.active .circle_a {
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	position: absolute;
+	top: 20px;
+	left: 45px;
+	background-color: #db6800
+}
+
+.gameguide .timeline ul li .eventDate.active .circle_b {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	position: absolute;
+	top: 15px;
+	left: 40px;
+	background-color: #c1976e
+}
+
+.gameguide .timeline ul .date {
+	width: 100%;
+	text-align: center;
+	display: block;
+	font-size: 14px
+}
+
+.gameguide .timeline ul .active .date {
+	color: #db6800;
+	font-weight: 700
+}
+
+.timeline .next,
+.timeline .prev {
+	position: absolute;
+	top: 50%;
+	margin-top: -23px;
+	width: 33px;
+	height: 46px;
+	text-indent: -999em;
+	display: none;
+	background: url(http://hearthstone.nos.netease.com/3/v2015/icon/timeline-ctrl.png) no-repeat
+}
+
+.timeline .prev {
+	left: 0
+}
+
+.timeline .next {
+	right: 0;
+	background-position: -33px 0
+}
+
+.timeline .prev:hover {
+	background-position: 0 -46px
+}
+
+.timeline .next:hover {
+	background-position: -33px -46px
+}
+
+.gameguide .heroesDes {
+	width: 880px;
+	line-height: 30px;
+	margin: 0 auto
+}
+
+.gameguide .conlist {
+	padding: 50px;
+	background: url(http://hearthstone.nos.netease.com/3/v2015/gameguide/conlistbg.jpg) no-repeat 50% 0
+}
+
+.next,
+.prev {
+	position: absolute;
+	top: 50%;
+	margin-top: -45px;
+	width: 60px;
+	height: 92px;
+	text-indent: -999em;
+	background: url(http://hearthstone.nos.netease.com/3/newbie/sprite.png) no-repeat 0 -687px
+}
+
+.prev {
+	left: 10px
+}
+
+.next {
+	right: 20px;
+	background-position: -66px -687px
+}
+
+.prev:hover {
+	background-position: -142px -687px
+}
+
+.next:hover {
+	background-position: -209px -687px
+}
+
+.flower-btm,
+.flower-top {
+	width: 1119px;
+	height: 66px;
+	background: url(http://hearthstone.nos.netease.com/3/newbie/flower.png) no-repeat 0 0;
+	margin: 0 0 0 -79px
+}
+
+.flower-btm {
+	background-position: 0 -78px
+}
+
+.title-line {
+	background: url(http://hearthstone.nos.netease.com/3/xinshou/title-line.png) no-repeat center 0;
+	height: 13px
+}
+
+.slider {
+	float: left;
+	position: relative
+}
+
+.slider .next,
+.slider .prev {
+	position: absolute;
+	left: 14px;
+	top: 143px;
+	background: url(http://hearthstone.nos.netease.com/3/xinshou/sliderBtn.png) no-repeat 0 0;
+	z-index: 100;
+	width: 41px;
+	height: 64px;
+	text-indent: -999em;
+	display: none
+}
+
+.slider .next {
+	left: 387px;
+	background-position: -41px 0
+}
+
+.slider .prev:hover {
+	background-position: 0 -64px
+}
+
+.slider .next:hover {
+	background-position: -41px -64px
+}
+
+.slider .img {
+	width: 444px;
+	height: 280px;
+	z-index: 9;
+	position: relative
+}
+
+.slider .img li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	padding: 14px
+}
+
+.slider .img li.on {
+	display: block
+}
+
+.slider .img li img {
+	width: 421px;
+	height: 239px
+}
+
+.slider .img li span {
+	display: block;
+	width: 422px;
+	height: 61px;
+	line-height: 66px;
+	text-align: center;
+	position: absolute;
+	left: 15px;
+	top: 193px;
+	font-size: 15px;
+	background: url(http://hearthstone.nos.netease.com/3/xinshou/4/board-shadow.png) no-repeat 0 0
+}
+
+.slider .img li .mark {
+	background: url(http://hearthstone.nos.netease.com/3/xinshou/border.png) no-repeat 0 0;
+	width: 444px;
+	height: 280px;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+
+.slider .img li .mark:hover {
+	background-position: 0 -280px
+}
+
+.slider .num {
+	z-index: 10;
+	width: 440px;
+	margin: -8px 0 0;
+	text-align: center
+}
+
+.slider .num li {
+	display: inline-block;
+	zoom: 1;
+	*display: inline
+}
+
+.slider .num li a {
+	display: block;
+	width: 24px;
+	height: 30px;
+	text-indent: -999em;
+	background: url(http://hearthstone.nos.netease.com/3/xinshou/common.png) no-repeat -27px -17px
+}
+
+.slider .num li a:hover {
+	background-position: -59px -17px
+}
+
+.slider .num li a.on {
+	background-position: -113px -17px
+}
+
+.text {
+	width: 410px;
+	padding: 25px 0 0;
+	float: left
+}
+
+.text-left {
+	margin-right: 45px
+}
+
+.text-right {
+	margin-left: 45px
+}
+
+.text .title {
+	font-size: 16px;
+	font-weight: 700;
+	color: #03345f;
+	padding-bottom: 10px;
+	display: block
+}
+
+.text p {
+	line-height: 26px;
+	padding-bottom: 25px
+}
+
+.text p strong {
+	color: red
+}
+
+.text p i {
+	font-weight: 700;
+	font-style: normal
+}
+
+.pic {
+	float: left;
+	width: 444px;
+	height: 280px;
+	position: relative
+}
+
+.pic img {
+	width: 421px;
+	height: 239px;
+	margin: 14px
+}
+
+.pic .mark {
+	background: url(http://hearthstone.nos.netease.com/3/xinshou/border.png) no-repeat 0 0;
+	width: 444px;
+	height: 280px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer
+}
+
+.pic .mark:hover {
+	background-position: 0 -280px
+}
+
+.module-bg {
+	background: url(http://hearthstone.nos.netease.com/3/news/dot.png) repeat 0 0;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #222
+}
+
+.justified-list--expansion {
+	padding-left: 60px;
+	*padding-left: 75px;
+	text-align: center
+}
+
+.expansion-container:nth-of-type(2n+1) {
+	padding: 0 20px 0 0;
+	text-align: right
+}
+
+.grid-50--sm {
+	margin: 0 10px 40px;
+	float: left;
+	width: 420px
+}
+
+.expansion-link {
+	display: block;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	border-radius: 6px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	max-width: 100%;
+	z-index: 5;
+	transition: -webkit-transform 300ms;
+	transition: transform 300ms;
+	overflow: hidden;
+	padding-top: 60.6557377%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.expansion-link:after {
+	position: absolute;
+	content: "";
+	z-index: 5;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .99);
+	opacity: 0;
+	transition: opacity 300ms linear
+}
+
+.expansion-link:hover {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05)
+}
+
+.expansion-link:hover .expansion-link__logo {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+.expansion-link:hover:after {
+	opacity: .5
+}
+
+.expansion-link--goblins-vs-gnomes {
+	background-image: url(http://hearthstone.nos.netease.com/3/v2015/gameguide/goblins-vs-gnomes.jpg)
+}
+
+.expansion-link--naxxramas {
+	background-image: url(http://hearthstone.nos.netease.com/3/v2015/gameguide/naxxramas.jpg)
+}
+
+.expansion-link--brm {
+	background-image: url(http://hearthstone.nos.netease.com/3/v2015/gameguide/blackrock-mountain.jpg)
+}
+
+.expansion-link--tgt {
+	background-image: url(http://hearthstone.nos.netease.com/3/newbie/tgt/the-grand-tournament.jpg)
+}
+
+.expansion-link--loe {
+	background-image: url(http://hearthstone.nos.netease.com/3/newbie/loe/league-of-explorers.jpg)
+}
+
+.expansion-link--wotog {
+	background-image: url(http://hearthstone.nos.netease.com/3/newbie/wotog/whispers-of-the-old-gods.jpg)
+}
+
+.expansion-link--krz {
+	background-image: url(http://hearthstone.nos.netease.com/3/newbie/karazhan/li-karazhan.jpg)
+}
+
+.expansion-link--msog {
+	background-image: url(http://hearthstone.nos.netease.com/3/newbie/msog/bg.png)
+}
+
+.expansion-link--ungoro {
+	background-image: url(http://hearthstone.nos.netease.com/3/newbie/ungoro/bg.jpg)
+}
+
+.expansion-link--knight {
+	background-image: url(http://hearthstone.nos.netease.com/3/newbie/knight/knight.jpg)
+}
+
+.expansion-link--kobolds {
+	background-image: url(http://hearthstone.nos.netease.com/3/newbie/kobolds/kobolds.jpg)
+}
+
+.expansion-link--witchwood {
+	background-image: url(http://hearthstone.nos.netease.com/3/newbie/witchwood_3rdfdsa.jpg)
+}
+
+.expansion-link__logo {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50%;
+	width: 65%;
+	margin-left: -30%;
+	margin-top: -30%;
+	transition: -webkit-transform 300ms;
+	transition: transform 300ms
+}
+
+.expansion-link__logo--naxxramas {
+	width: 82%;
+	margin-left: -40%
+}
+
+.expansion-link__logo--brm {
+	margin-left: -40%;
+	width: 80%
+}
+
+.expansion-link__logo--tgt {
+	margin-left: -33%;
+	margin-top: -20%;
+	width: 65%
+}
+
+.expansion-link__logo--loe {
+	margin-left: -36%;
+	margin-top: -20%;
+	width: 76%
+}
+
+.expansion-link__logo--wotog {
+	margin-left: -37%;
+	margin-top: -28%;
+	width: 76%
+}
+
+.expansion-link__logo--ungoro {
+	left: 54%;
+	top: 51%;
+	width: 60%
+}
+
+.expansion-link__logo--knight {
+	left: 41%;
+	top: 53%;
+	width: 80%
+}
+
+.expansion-link__logo--kobolds {
+	left: 41%;
+	top: 51%;
+	width: 80%
+}
+
+.expansion-link__logo--witchwood {
+	left: 39%;
+	top: 49%;
+	width: 80%
+}
+
+.gameguide h3.title a[name] {
+	position: absolute;
+	top: -80px;
+	width: 100%
+}
