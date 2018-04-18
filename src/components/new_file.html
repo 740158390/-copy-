@@ -5,5 +5,16 @@
 		<title></title>
 	</head>
 	<body>
+		<input type="text" name="" id="" value="12231" />
+		<button>1111</button>
 	</body>
 </html>
+<script type="text/javascript">
+	document.querySelector("button").onclick=function () {
+		document.querySelector("input").value=1
+	}
+	
+	document.querySelector("button").addEventListener("click",function () {
+		console.log(document.querySelector("input").value)
+	})
+</script>

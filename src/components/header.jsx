@@ -5,6 +5,13 @@ import React, {
 
 import { HashRouter, Route, Link } from "react-router-dom";
 class Header extends Component {
+		constructor(props) {
+      super(props);
+       this.state = {
+          name:1
+        };
+ 
+     };
 	render() {
 		return(
 			        		<div id="content-bot">
@@ -17,7 +24,7 @@ class Header extends Component {
 </ul>
 				<div id="header">
 		   				 <h1 className="logo">
-		   				 <Link to="/home"></Link>
+		   				 <Link to="/home" name="home"></Link>
 						        
 						</h1>
 		   				 <div className="c-search" id="j-search">

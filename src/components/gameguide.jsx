@@ -6,7 +6,25 @@ import '../css/gameguide.css'
 import '../css/hreo.css'
 import '../css/gamefoot.css'
 import { HashRouter, Route, Link } from "react-router-dom";
+import $$ from "jquery"
 class Gameguide extends Component {
+	
+	componentDidMount(){
+		for(var i=0;i<$$(".btn-list>li").length;i++){
+			$$(".btn-list>li")[i].index=i
+			$$($$(".btn-list>li")[i]).on("mouseenter",function () {
+				$$(".btn-list>li").children("a").removeClass("on")
+				$$(this).children("a").addClass("on")
+//				console.log([this.index])
+				$$(".img>li").hide()
+				$$($$(".img>li")[this.index]).show()
+				console.log($$($$(".img>li")[this.index]))
+			})
+			
+		}
+		
+	}
+	
 	render() {
 		return(  
 			<div className="gameguide">

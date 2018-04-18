@@ -3,12 +3,81 @@ import React, {
 	Component
 } from 'react';
 
-import { HashRouter, Route, Link } from "react-router-dom";
+import {BrowserRouter} from 'react-router-dom';
+
 import '../css/home.css'
+import $$ from 'jquery'
+import './header.jsx'
 class Home extends Component {
+	
+	componentDidMount(){
+	
+			
+			$$($$(".eye_pic")[0]).append($$($$(".eye_pic>li")[0]).clone())
+			var num=0
+//			console.log($$(".eye_pic")[0])
+			var self=this
+			this.timerID=setInterval(function(){
+//				$$($$(".eye_pic")[0]).stop()
+				$$($$(".eye_pic")[0]).css({left:-640*num+"px"})
+				$$(".eye_small>li").removeClass("active")
+				$$($$(".eye_small>li")[num]).addClass("active")
+				if(num>3){
+					$$($$(".eye_small>li")[0]).addClass("active")
+				}
+				if(num==4){
+					num=0
+//					$$($$(".eye_pic")[0]).stop()
+				$$($$(".eye_pic")[0]).css({left:0+"px"})
+				}
+				num++
+								
+			},1000)
+			$$("#eye").on("mouseenter",function () {
+				clearInterval(self.timerID)
+				console.log(num)
+
+			})
+			$$("#eye").on("mouseleave",function () {
+				self.timerID=setInterval(function(){
+//				$$($$(".eye_pic")[0]).stop()
+				$$($$(".eye_pic")[0]).css({left:-640*num+"px"})
+				$$(".eye_small>li").removeClass("active")
+				$$($$(".eye_small>li")[num]).addClass("active")
+				if(num>3){
+					$$($$(".eye_small>li")[0]).addClass("active")
+				}
+				if(num>4){
+					num=0
+//					$$($$(".eye_pic")[0]).stop()
+				$$($$(".eye_pic")[0]).css({left:0+"px"})
+				}
+				num++
+			},1000)
+			})
+			for(var i=0;i<$$(".eye_small>li").length;i++){
+				$$(".eye_small>li")[i].index=i
+				$$($$(".eye_small>li")[i]).on("mouseenter",function () {
+				$$(".eye_small>li").removeClass("active")
+				$$(this).addClass("active")
+				num=this.index
+				$$($$(".eye_pic")[0]).css({left:-640*num+"px"})
+			})
+			}
+			
+			
+		}
+		
+	componentWillUnmount() {
+  clearInterval(this.timerID);
+}
 	render() {
+	
+		
+
 		return(
 			<div id="container">
+			
                     <div className="wraperCon homeCon">
                         <div className="wraperConArea clearFix">
                             <div className="homeConMain">

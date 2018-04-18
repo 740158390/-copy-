@@ -19,9 +19,9 @@ import Gameguide from './components/gameguide.jsx'
 ReactDOM.render(
 	<HashRouter>
 			<div>
-							<div id="wraper" data-nav="1" className="homepage">
+		<div id="wraper" data-nav="1" className="homepage">
 		    <Header />
-   	 <Route  path="/home" component={Home} />
+   	 <Route  path="/home" component={Home} name="1" />
    	 <Route path="/news" component={News} />
    	  <Route path="/gameguide" component={Gameguide} />
    	 </div> 

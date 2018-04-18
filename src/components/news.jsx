@@ -7,6 +7,7 @@ import { HashRouter, Route, Link } from "react-router-dom";
 import '../css/news.css'
 class News extends Component {
 	render() {
+		
 		return(
 			<div>
 			  <div id="container">
